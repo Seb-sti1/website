@@ -1,17 +1,31 @@
 import React from "react";
-import Contact from "../components/Contact";
-import "./home.css";
+import "./index.css";
+import Navbar from "../components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./home";
+import About from "./about";
+import Projects from "./projects";
+import Maintenance from "../errors/maintenance";
 
-const Home = () => {
+const maintenance = false;
+
+function WebsiteRouter() {
+  if (maintenance) {
+    return <Maintenance />;
+  }
+
   return (
-    <>
-      <div class="centered">
-        <p>Hello, I'm Sébastien</p>
-      </div>
-
-      <Contact />
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
-export default Home;
+// TODO exact path does not work
+
+export default WebsiteRouter;
