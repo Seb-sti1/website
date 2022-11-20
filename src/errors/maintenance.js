@@ -9,7 +9,7 @@ const Maintenance = () => {
         <br />
         It will be back as soon as possible !
       </p>
-      <img src="/images/gears.png" />
+      <img src="/images/gears.png" alt="gears" />
     </div>
   );
 };
