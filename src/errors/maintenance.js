@@ -3,7 +3,7 @@ import "./maintenance.css";
 
 const Maintenance = () => {
   return (
-    <div>
+    <div id="maintenance">
       <p>
         This site is currently under maintenance.
         <br />

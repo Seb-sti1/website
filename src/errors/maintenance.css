@@ -1,12 +1,12 @@
-div {
+#maintenance div {
     text-align: center;
 }
 
-img {
+#maintenance img {
     margin-top: 2%;
     width: 20%;
 }
 
-p {
+#maintenance p {
     margin-top: 15%;
 }
