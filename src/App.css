@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: "Julius";
+  src: url(./fonts/JuliusSansOne-Regular.ttf) format("truetype");
+}
+
 body {
   background-color: #222429;
   min-height: 100vh;
@@ -10,6 +16,7 @@ body {
   margin-top: 2%;
   padding-left: 12%;
   padding-right: 12%;
+  font-family: Julius;
 }
 
 #root {

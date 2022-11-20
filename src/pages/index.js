@@ -1,10 +1,16 @@
 import React from "react";
+import Contact from "../components/Contact";
+import "./home.css";
 
 const Home = () => {
   return (
-    <div>
-      <p>Hello, I'm Seb-sti1</p>
-    </div>
+    <>
+      <div class="centered">
+        <p>Hello, I'm Sébastien</p>
+      </div>
+
+      <Contact />
+    </>
   );
 };
 
