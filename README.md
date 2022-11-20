@@ -33,6 +33,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - [https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/](Multipages)
+- https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
 
 ---
 

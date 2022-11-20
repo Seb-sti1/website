@@ -12,7 +12,7 @@ const CustomError = () => {
           <p>
             La MamBox n'est pas disponible pour le moment.
             <br />
-            <a href="mambox.kerbourch.fr">Réessayez</a> plus tard.
+            <a href="https://mambox.kerbourch.fr">Réessayez</a> plus tard.
           </p>
         </div>
       );
