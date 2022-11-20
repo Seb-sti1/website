@@ -27,6 +27,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `pm2 serve -s build -p 8080 --spa --name kerbourch`
+
 # Sources
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
