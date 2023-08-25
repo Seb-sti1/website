@@ -6,16 +6,6 @@ const CustomError = () => {
   const { reason } = useParams();
 
   switch (reason) {
-    case "mambox":
-      return (
-        <div id="error">
-          <p>
-            La MamBox n'est pas disponible pour le moment.
-            <br />
-            <a href="https://mambox.kerbourch.fr">Réessayez</a> plus tard.
-          </p>
-        </div>
-      );
     default:
       return (
         <div id="error">
