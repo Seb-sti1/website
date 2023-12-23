@@ -14,9 +14,11 @@ const Home: FC = () => {
                     <br/>
                     I am a engineering student, currently completing a double degree at <a
                         href="https://www.dtu.dk/english/">DTU</a> after two years at <a
-                        href="https://www.ensta-paris.fr/">ENSTA Paris</a>.</p>
+                        href="https://www.ensta-paris.fr/">ENSTA Paris</a>.
+                    <br/>
+                    I am passionate about robotics and computer science.
+                </p>
             </div>
-
             <Contact/>
         </>
     );

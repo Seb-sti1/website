@@ -1,12 +1,11 @@
 import {FC} from "react";
-import "./index.css";
+import "./index.scss";
 
 const Contact: FC = () => {
     return (
-        <div>
-            <div className="contact link">
-                <a href="https://linkedin.com">Linkedin</a>
-            </div>
+        <div className="contact link">
+            <a href="https://linkedin.com">My Linkedin</a>
+            <a href="https://github.com/Seb-sti1">My GitHub</a>
         </div>
     );
 };

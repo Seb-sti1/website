@@ -1,0 +1,29 @@
+@use "./variables.scss" as *;
+
+@font-face {
+  font-family: "Julius";
+  src: url(./fonts/JuliusSansOne-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: #222429;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 2%;
+  padding-left: $body-side-padding;
+  padding-right: $body-side-padding;
+  font-family: Julius;
+}
+
+a {
+  color: #61dafb;
+}
+
+#root {
+  width: 100%;
+}

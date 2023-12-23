@@ -1,14 +1,15 @@
 import {FC} from "react";
+import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
 
 const Education: FC = () => {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-                    Education
-                </p>
-            </header>
-        </div>
+        <>
+            <Navbar/>
+            <div>
+            </div>
+            <Contact/>
+        </>
     );
 }
 

@@ -1,6 +1,7 @@
 import {FC} from "react";
 
 import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
 
 const Projects: FC = () => {
     return (
@@ -12,6 +13,7 @@ const Projects: FC = () => {
                     as clear and beautifull as possible !
                 </p>
             </div>
+            <Contact/>
         </>
     );
 };
