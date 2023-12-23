@@ -1,8 +1,8 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
-import Home from "./home";
+import {render, screen} from "@testing-library/react";
+import Home from "./Home";
 
 it("renders home page", () => {
   const div = document.createElement("div");
-  render(<Home />, div);
+  render(<Home/>, div);
 });
