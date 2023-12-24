@@ -1,7 +1,7 @@
 import { FC } from "react";
 
-import Contact from "../components/Contact";
 import Topbar from "../components/Generics/Topbar";
+import Footer from "../components/Generics/Footer";
 
 const Projects: FC = () => {
   return (
@@ -13,7 +13,7 @@ const Projects: FC = () => {
           as clear and beautifull as possible !
         </p>
       </div>
-      <Contact />
+      <Footer />
     </>
   );
 };

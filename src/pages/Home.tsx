@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-import Contact from "../components/Contact";
 import "./home.css";
 import { Trans, useTranslation } from "react-i18next";
 import Topbar from "../components/Generics/Topbar";
+import Footer from "../components/Generics/Footer";
 
 const Home: FC = () => {
   const { t } = useTranslation();
@@ -22,7 +22,7 @@ const Home: FC = () => {
           />
         </p>
       </div>
-      <Contact />
+      <Footer />
     </>
   );
 };
