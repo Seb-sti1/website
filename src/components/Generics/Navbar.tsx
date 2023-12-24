@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Nav = styled.nav`
   height: 85px;
@@ -34,13 +35,15 @@ const NavMenu = styled.div`
 `;
 
 const Navbar: FC = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/education">Education & Internships</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/">{t("nav.home")}</NavLink>
+          <NavLink to="/education">{t("nav.education")}</NavLink>
+          <NavLink to="/projects">{t("nav.projects")}</NavLink>
         </NavMenu>
       </Nav>
     </>

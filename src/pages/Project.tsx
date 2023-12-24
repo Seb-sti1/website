@@ -1,12 +1,12 @@
 import { FC } from "react";
 
-import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
+import Topbar from "../components/Generics/Topbar";
 
 const Projects: FC = () => {
   return (
     <>
-      <Navbar />
+      <Topbar />
       <div>
         <p>
           There will be all my projects here. I'm currently working to make it

@@ -1,11 +1,11 @@
 import { FC } from "react";
-import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
+import Topbar from "../components/Generics/Topbar";
 
 const Education: FC = () => {
   return (
     <>
-      <Navbar />
+      <Topbar />
       <div></div>
       <Contact />
     </>
