@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import "./home.css";
+import "./styles/home.css";
 import { Trans, useTranslation } from "react-i18next";
 import Topbar from "../components/Generics/Topbar";
 import Footer from "../components/Generics/Footer";

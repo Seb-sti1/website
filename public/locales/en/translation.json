@@ -4,5 +4,17 @@
   "lang.fr": "FR",
   "nav.home": "Home",
   "nav.education": "Education & Internships",
-  "nav.projects": "Projects"
+  "nav.projects": "Projects",
+  "education.ensta.desc": "A top french engineering school. I specialized in the computer science major and AI & Cyber-physics minor.",
+  "education.ensta.diploma": "Master of Science in engineering - Computer science major",
+  "education.ensta.link": "https://www.ensta-paris.fr/en",
+  "education.dtu": "DTU (Technical University of Denmark)",
+  "education.dtu.desc": "As part of a double degree, the third year at ENSTA Paris was exchanged with DTU's MSc in Autonomous Systems.",
+  "education.dtu.diploma": "Master of Science (MSc) in Autonomous systems",
+  "internship.stage-op": "Operator traineeship at Aldes Aéraulique",
+  "internship.stage-op.dates": "July 2022",
+  "internship.stage-op.desc": "I worked as an operator in the logistic line of the Aldes Aéraulique warehouse (Vitry-sur-Seine, France).",
+  "internship.pre": "Robotics software engineer Intern at Aldebaran Robotics",
+  "internship.pre.desc": "I worked as a software engineer in the Agility team, which develops a part of the middleware of Plato.",
+  "internship.pre.dates": "May 2023 - August 2023"
 }

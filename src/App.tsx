@@ -1,10 +1,10 @@
 import { FC } from "react";
 import "./app.scss";
 
-import Maintenance from "./errors/Maintenance";
-import ServiceUnavailable from "./errors/ServiceUnavailable";
-import UnknownError from "./errors/UnknownError";
-import NotFound from "./errors/NotFound";
+import Maintenance from "./components/Errors/Maintenance";
+import ServiceUnavailable from "./components/Errors/ServiceUnavailable";
+import UnknownError from "./components/Errors/UnknownError";
+import NotFound from "./components/Errors/NotFound";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Project";

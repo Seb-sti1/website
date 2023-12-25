@@ -4,5 +4,17 @@
   "lang.fr": "FR",
   "nav.home": "Home",
   "nav.education": "Études & expériences",
-  "nav.projects": "Projets"
+  "nav.projects": "Projets",
+  "education.ensta.desc": "Majeur informatique, mineur IA & Cyber-physique.",
+  "education.ensta.diploma": "Diplôme d’ingénieur de l’école nationale supérieure des techniques avancées - Majeur Informatique",
+  "education.ensta.link": "https://www.ensta-paris.fr",
+  "education.dtu": "DTU (Université technique du Danemark)",
+  "education.dtu.desc": "Dans le cadre d'un double diplôme, la troisième année de l'ENSTA Paris a été échangée avec le master en systèmes autonomes de DTU.",
+  "education.dtu.diploma": "Master (MSc) en systèmes autonomes",
+  "internship.stage-op": "Opérateur stagiaire à Aldes Aéraulique",
+  "internship.stage-op.dates": "Juillet 2022",
+  "internship.stage-op.desc": "J'ai travaillé comme opérateur sur la ligne logistique de l'entrepôt d'Aldes Aéraulique (Vitry-sur-Seine).",
+  "internship.pre": "Ingénieur logiciel en robotique Stagiaire à Aldebaran Robotics",
+  "internship.pre.desc": "J'ai travaillé comme ingénieur logiciel dans l'équipe Agility, qui développe une partie du middleware de Plato.",
+  "internship.pre.dates": "Mai 2023 - Août 2023"
 }

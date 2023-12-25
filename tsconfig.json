@@ -20,5 +20,6 @@
     "noImplicitReturns": true
   },
   "include": ["src"],
+  "files": ["svg.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,2 +1,8 @@
 $body-side-padding: 12%;
 $body-width: (100% - (2 * $body-side-padding));
+$body-top-padding: 30px;
+$body-height: calc(100vh - $body-top-padding);
+
+$background-color: #222429;
+$text-color: #e6e6e6;
+$link-color: #61dafb;

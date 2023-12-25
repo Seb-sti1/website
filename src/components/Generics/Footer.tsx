@@ -1,11 +1,13 @@
 import { FC } from "react";
 import Contact from "./Contact";
 
+import "./styles/footer.scss";
+
 const Footer: FC = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <Contact />
-    </div>
+    </footer>
   );
 };
 
