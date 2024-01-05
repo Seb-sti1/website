@@ -1,10 +1,5 @@
 @use "./variables.scss" as *;
 
-@font-face {
-  font-family: "Julius";
-  src: url(./fonts/JuliusSansOne-Regular.ttf) format("truetype");
-}
-
 body {
   margin: 0;
   background-color: $background-color;
@@ -17,7 +12,7 @@ body {
   padding-left: $body-side-padding;
   padding-right: $body-side-padding;
   min-height: $body-height;
-  font-family: Julius;
+  font-family: $font-texts;
 }
 
 a {

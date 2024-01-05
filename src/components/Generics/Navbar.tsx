@@ -19,6 +19,7 @@ const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-family: "Julius Sans One", sans-serif;
 
   &.active {
     text-decoration: underline solid white 2px;
