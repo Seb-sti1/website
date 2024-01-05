@@ -31,16 +31,16 @@ const Education: FC = () => {
         >
           {[
             <SimpleCard
-              key={"stage-op"}
-              title={t("internship.stage-op")}
-              description={t("internship.stage-op.desc")}
-              dates={t("internship.stage-op.dates")}
-            />,
-            <SimpleCard
               key={"stage-pre"}
               title={t("internship.pre")}
               description={t("internship.pre.desc")}
               dates={t("internship.pre.dates")}
+            />,
+            <SimpleCard
+              key={"stage-op"}
+              title={t("internship.stage-op")}
+              description={t("internship.stage-op.desc")}
+              dates={t("internship.stage-op.dates")}
             />,
           ]}
         </SimpleCard>

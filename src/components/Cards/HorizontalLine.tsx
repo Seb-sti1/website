@@ -1,16 +1,30 @@
 import { FC } from "react";
 
-const HorizontalLine: FC = () => {
+interface HorizontalLineProps {
+  width?: string;
+  height?: string;
+  marginTop?: string;
+  marginBottom?: string;
+  color?: string;
+}
+
+const HorizontalLine: FC<HorizontalLineProps> = ({
+  width = "50%",
+  height = "2px",
+  marginTop = "40px",
+  marginBottom = "40px",
+  color = "lightgrey",
+}) => {
   return (
     <hr
       style={{
-        color: "lightgrey",
-        width: "50%",
-        height: "2px",
-        background: "lightgrey",
+        color: color,
+        width: width,
+        height: height,
+        background: color,
         borderRadius: "2px",
-        marginTop: "40px",
-        marginBottom: "40px",
+        marginTop: marginTop,
+        marginBottom: marginBottom,
       }}
     />
   );

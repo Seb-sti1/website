@@ -3,18 +3,17 @@ import "./styles/card.scss";
 import { ReactComponent as LinkLogo } from "./logos/link.svg";
 import { ReactComponent as CalendarLogo } from "./logos/calendar.svg";
 
-interface SimpleCardProps {
-  title: string;
-  description: string;
+interface HTMLElementCardProps {
+  title: ReactNode;
+  description: ReactNode;
   diploma?: string;
   dates?: string;
   image?: string;
   link?: string;
   tags?: string[];
-  children?: ReactNode[];
 }
 
-const SimpleCard: FC<SimpleCardProps> = ({
+const HTMLElementCard: FC<HTMLElementCardProps> = ({
   title,
   description,
   dates,
@@ -22,23 +21,18 @@ const SimpleCard: FC<SimpleCardProps> = ({
   image,
   link,
   tags,
-  children,
 }) => {
   return (
     <div className="card">
       <div className="card-header">
-        {image && <img src={image} alt={title} />}
-        {link ? (
-          <>
-            <a href={link} target="_blank">
-              <h3>{title}</h3>
-            </a>
-            <a href={link} target="_blank">
-              <LinkLogo width={50} height={50} />
-            </a>
-          </>
-        ) : (
+        {image && <img src={image} alt={"card image"} />}
+        <a href={link} target="_blank">
           <h3>{title}</h3>
+        </a>
+        {link && (
+          <a href={link} target="_blank">
+            <LinkLogo width={50} height={50} />
+          </a>
         )}
       </div>
       <div className="card-sub-header">
@@ -57,16 +51,8 @@ const SimpleCard: FC<SimpleCardProps> = ({
           {tags && tags.map((tag, idx) => <p key={idx}>{tag}</p>)}
         </div>
       )}
-
-      {children && (
-        <ul className="card-children">
-          {children.map((child, idx) => (
-            <li key={idx}>{child}</li>
-          ))}
-        </ul>
-      )}
     </div>
   );
 };
 
-export default SimpleCard;
+export default HTMLElementCard;

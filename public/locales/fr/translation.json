@@ -1,5 +1,6 @@
 {
   "home.short-description": "Hello, je suis Sébastien Kerbourc'h.<br/><br/>Je suis un étudiant ingénieur, actuellement en double diplome à <dtu/> après deux ans à <ensta/>.<br/>Je suis passioné par la robotique et l'informatique.",
+  "footer.desc": "Développé et hébergé par moi-même. <src>Code source<src />",
   "lang.en": "AN",
   "lang.fr": "FR",
   "nav.home": "Home",
@@ -16,5 +17,17 @@
   "internship.stage-op.desc": "J'ai travaillé comme opérateur sur la ligne logistique de l'entrepôt d'Aldes Aéraulique (Vitry-sur-Seine).",
   "internship.pre": "Ingénieur logiciel en robotique Stagiaire à Aldebaran Robotics",
   "internship.pre.desc": "J'ai travaillé comme ingénieur logiciel dans l'équipe Agility, qui développe une partie du middleware de Plato.",
-  "internship.pre.dates": "Mai 2023 - Août 2023"
+  "internship.pre.dates": "Mai 2023 - Août 2023",
+  "cdfr.title": "Coupe de France de Robotique",
+  "cdfr.desc": "<ul><li>Conception et construction de deux robots complètement autonomes (un filoguidé pour les juniors) avec un thème annuel</li><li>Adulte : Responsable de la position et de la trajectoire</li><li>Junior : Participation aux trophées régionaux et nationaux. Notre équipe est allée plusieurs fois au niveau national</li></ul>",
+  "cdfr.dates": "2011-2018 (junior) puis 2021-2023",
+  "cdfr.link": "https://www.coupederobotique.fr/levenement/organisateurs/",
+  "cohoma.title": "Challenge CoHoMa",
+  "cohoma.desc": "<ul><li>L'objectif est de créer deux groupes composé d'un robot aérien (Tundra) et un robot terrestre (Husky) qui vont naviguer dans un environnement complexe et destructuré, detecter et desactiver des pièges. Les tâches les plus simple sont autonomatisées bien que les robots ne sont pas complètmenent autonomes. Ce projet fait partie de ma seconde année de ENSTA Paris et est en partenariat avec l'Armée de terre.</li><li>J'étais en charge d'ajouter une structure pour les capteurs du seconde robot terrestre et tester la navigation 3D utilisant <move_base_flex />.</li></ul>",
+  "cnc": "Fraiseuse CNC",
+  "i3d": "Imprimante 3D",
+  "etal.title": "ETAl (Advanced Techniques Grocery Store)",
+  "etal.desc": "<ul><li>Gestion d'une vente hebdomadaire de légumes/fruits/oeufs et pains d'une ferme et une boulangerie locales (récupérations des commandes clients, achats des produits chez les fournisseurs, réception et vente aux clients)</li><li>Gestion des stocks de produits secs en vrac (commandes, inventaires, ventes)</li><li>Amélioration du site web</li></ul>",
+  "lzc.desc": "<ul><li>Création d'un site sur l'économie circulaire. Création d'une association pour interagir avec des acteurs du domaine.</li><li>J'ai dévelopé le site web et était dans le Bureau de l'association.</li></ul>",
+  "lzc.dates": "sept 2018 - juill 2019"
 }

@@ -1,5 +1,6 @@
 {
   "home.short-description": "Hello, I'm Sébastien Kerbourc'h.<br/><br/>I am a engineering student, currently completing a double degree at <dtu/> after two years at <ensta/>.<br/>I am passionate about robotics and computer science.",
+  "footer.desc": "Developed and hosted by me. <src>Source code<src />",
   "lang.en": "EN",
   "lang.fr": "FR",
   "nav.home": "Home",
@@ -16,5 +17,17 @@
   "internship.stage-op.desc": "I worked as an operator in the logistic line of the Aldes Aéraulique warehouse (Vitry-sur-Seine, France).",
   "internship.pre": "Robotics software engineer Intern at Aldebaran Robotics",
   "internship.pre.desc": "I worked as a software engineer in the Agility team, which develops a part of the middleware of Plato.",
-  "internship.pre.dates": "May 2023 - August 2023"
+  "internship.pre.dates": "May 2023 - August 2023",
+  "cdfr.title": "<italic>Coupe de France de Robotique</italic> (French national stage of Eurobot)",
+  "cdfr.desc": "<ul><li>Design and construction of two completely autonomous robots (wire-guided for juniors) with an annual theme</li><li>Adult: Responsible for position and trajectory</li><li>Junior: Participation in regional and national trophies. Our team went to the national level several times</li></ul>",
+  "cdfr.dates": "2011-2018 (junior) then 2021-2023",
+  "cdfr.link": "https://www.eurobot.org/eurobot-contest/",
+  "cohoma.title": "CoHoMa Challenge (2nd edition)",
+  "cohoma.desc": "<ul><li>The goal is to create 2 group composed of an aerial drone (Tundra) and a ground robot (Husky) that will have to navigate a complex and unstructured environment, detect and deactivate traps. Simple tasks will be automated even if the robots are not fully autonomous. This project is a part of my second year in ENSTA Paris and is carried out in relation with the French Army.</li><li>I am in charge of adding a supporting structure for the captors of the second ground robot and testing the navigation in 3D complex environments using <move_base_flex />.</li></ul>",
+  "cnc": "CNC milling machine",
+  "i3d": "3D printer",
+  "etal.title": "ETAl (Advanced Techniques Grocery Store)",
+  "etal.desc": "<ul><li>Management of a weekly sale of vegetables/fruits/eggs and from a local farm and bakery: collection of customer orders orders, purchase of products from suppliers, receiving and selling to customers)</li><li>Stock management of dry bulk products (orders, inventories, sales)</li><li>I take care of the contacts with the farm, the creation of the spreadsheets used by the sellers, the reception of the vegetables/fruits/eggs and the orders and inventories of the bulk products.</li><li>I contribute to improving functionalities of the sales management website.</li></ul>",
+  "lzc.desc": "<ul><li>Creation of the website on circular economy. Creation of a registered association to interact with actors in the sector.</li><li>I developped the website and was on the board of the association.</li></ul>",
+  "lzc.dates": "Sept 2018 - July 2019"
 }

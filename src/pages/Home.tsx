@@ -10,7 +10,7 @@ const Home: FC = () => {
   return (
     <>
       <Topbar />
-      <div className="centered">
+      <div className="center">
         <p>
           <Trans
             t={t}
