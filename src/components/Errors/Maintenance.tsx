@@ -1,5 +1,5 @@
 import { FC } from "react";
-import "./maintenance.css";
+import "./maintenance.scss";
 
 const Maintenance: FC = () => {
   return (

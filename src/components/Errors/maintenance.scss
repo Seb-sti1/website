@@ -1,4 +1,7 @@
+@use "../../variables.scss" as *;
+
 #maintenance {
+  font-family: $font-titles;
   text-align: center;
 }
 

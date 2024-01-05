@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useMemo } from "react";
 import "./app.scss";
 
 import Maintenance from "./components/Errors/Maintenance";
@@ -19,10 +19,24 @@ const error = (
   </>
 );
 
-const maintenance = false;
+const maintenance = true;
 const App: FC = () => {
-  if (maintenance) {
-    return <Maintenance />;
+  const forceSee = useMemo(() => {
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+
+    return params.get("force-see") === "true";
+  }, []);
+
+  if (maintenance && !forceSee) {
+    return (
+      <BrowserRouter>
+        <Routes>
+          {error}
+          <Route path="/" element={<Maintenance />} />
+        </Routes>
+      </BrowserRouter>
+    );
   }
 
   return (
