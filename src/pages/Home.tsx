@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import "./styles/home.css";
+import "./styles/home.scss";
 import { Trans, useTranslation } from "react-i18next";
 import Topbar from "../components/Generics/Topbar";
 import Footer from "../components/Generics/Footer";
@@ -10,7 +10,7 @@ const Home: FC = () => {
   return (
     <>
       <Topbar />
-      <div className="center">
+      <div className="centered home-text">
         <p>
           <Trans
             t={t}

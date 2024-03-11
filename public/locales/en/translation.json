@@ -1,6 +1,6 @@
 {
   "home.short-description": "Hello, I'm Sébastien Kerbourc'h.<br/><br/>I am a engineering student, currently completing a double degree at <dtu/> after two years at <ensta/>.<br/>I am passionate about robotics and computer science.",
-  "footer.desc": "Developed and hosted by me. <src>Source code<src />",
+  "footer.desc": "Developed and hosted by me - <src>Source code</src>",
   "lang.en": "EN",
   "lang.fr": "FR",
   "nav.home": "Home",
@@ -8,7 +8,7 @@
   "nav.projects": "Projects",
   "education.ensta.desc": "A top french engineering school. I specialized in the computer science major and AI & Cyber-physics minor.",
   "education.ensta.diploma": "Master of Science in engineering - Computer science major",
-  "education.ensta.link": "https://www.ensta-paris.fr/en",
+  "education.ensta.link": "https://www.ensta-paris.fr/en/organisation-engineering-course",
   "education.dtu": "DTU (Technical University of Denmark)",
   "education.dtu.desc": "As part of a double degree, the third year at ENSTA Paris was exchanged with DTU's MSc in Autonomous Systems.",
   "education.dtu.diploma": "Master of Science (MSc) in Autonomous systems",

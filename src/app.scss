@@ -22,7 +22,7 @@ body {
   background-color: var(--background-color);
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+  font-size: $regular-font-size;
   color: var(--text-color);
   padding-top: $body-top-padding;
   padding-left: $body-side-padding;
@@ -40,6 +40,12 @@ a {
   min-height: $body-height;
   display: flex;
   flex-direction: column;
+}
+
+.content {
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .italic {

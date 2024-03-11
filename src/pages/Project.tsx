@@ -12,7 +12,7 @@ const Projects: FC = () => {
   return (
     <>
       <Topbar />
-      <div>
+      <div className="content">
         <HTMLElementCard
           title={
             <Trans

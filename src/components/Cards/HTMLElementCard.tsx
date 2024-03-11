@@ -44,7 +44,7 @@ const HTMLElementCard: FC<HTMLElementCardProps> = ({
           </>
         )}
       </div>
-      <p>{description}</p>
+      <div>{description}</div>
 
       {tags && (
         <div className="card-tags">

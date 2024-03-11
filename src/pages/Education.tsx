@@ -11,7 +11,7 @@ const Education: FC = () => {
   return (
     <>
       <Topbar />
-      <div>
+      <div className="content">
         <SimpleCard
           title={t("education.dtu")}
           description={t("education.dtu.desc")}

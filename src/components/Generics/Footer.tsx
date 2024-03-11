@@ -17,6 +17,7 @@ const Footer: FC = () => {
         marginBottom={"20px"}
         color={"grey"}
       />
+      <Contact />
       <p className="centered italic">
         <Trans
           t={t}
@@ -28,7 +29,6 @@ const Footer: FC = () => {
           }}
         />
       </p>
-      <Contact />
     </footer>
   );
 };

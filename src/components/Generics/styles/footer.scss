@@ -3,5 +3,9 @@
 .footer {
   margin-top: auto;
   margin-bottom: 20px;
-  font-size: 0.8em;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-size: $smaller-font-size;
 }

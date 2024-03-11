@@ -5,17 +5,29 @@
     margin: 0;
     padding: 0;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: $huge-titles-font-size;
     font-family: $font-titles;
+  }
+
+  .card-children {
+    h3 {
+      font-size: $large-titles-font-size;
+    }
   }
 
   h4 {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: $regular-titles-font-size;
     font-style: italic;
     font-family: $font-titles;
+  }
+
+  .card-children {
+    h4 {
+      font-size: $regular-titles-font-size;
+    }
   }
 
   .card-header {
