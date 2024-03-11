@@ -1,10 +1,9 @@
-import { FC, useMemo } from "react";
+import { FC, useMemo, useState } from "react";
 import "./styles/toggle-btn.scss";
 
 interface ToggleBtnProps {
   className?: string;
   defaultValue?: boolean;
-  label?: string;
   option1?: string;
   option2?: string;
   onChange: (value: boolean) => void;
@@ -13,7 +12,6 @@ interface ToggleBtnProps {
 const ToggleBtn: FC<ToggleBtnProps> = ({
   className,
   defaultValue,
-  label,
   option1,
   option2,
   onChange,
@@ -23,22 +21,27 @@ const ToggleBtn: FC<ToggleBtnProps> = ({
     return false;
   }, []);
 
+  const [isChecked, setChecked] = useState(isCheckedAtStart);
+
   return (
     <div className={"toggle-btn" + (className ? " " + className : "")}>
-      {option1 && <span className="option1">{option1}</span>}
-      <label className="switch">
-        <input
-          type="checkbox"
-          onChange={(event) => {
-            if (event.target.checked === true || event.target.checked === false)
-              onChange(event.target.checked);
-          }}
-          defaultChecked={isCheckedAtStart}
-        />
-        <span className="slider round"></span>
-      </label>
-      {option2 && <span className="option2">{option2}</span>}
-      {label && <span className="label">{label}</span>}
+      <input
+        type="checkbox"
+        onChange={(event) => {
+          if (event.target.checked || !event.target.checked) {
+            setChecked(event.target.checked);
+            onChange(event.target.checked);
+          }
+        }}
+        defaultChecked={isCheckedAtStart}
+        className="checkbox"
+      />
+      <div className="knobs">
+        <div className={"knobs-before" + (isChecked ? " checked" : "")}>
+          {isChecked ? option2 : option1}
+        </div>
+      </div>
+      <div className="layer" />
     </div>
   );
 };
