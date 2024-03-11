@@ -12,7 +12,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-  color: white;
+  color: var(--text-color);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -22,7 +22,7 @@ const NavLink = styled(Link)`
   font-family: "Julius Sans One", sans-serif;
 
   &.active {
-    text-decoration: underline solid white 2px;
+    text-decoration: underline solid var(--text-color) 2px;
   }
 `;
 

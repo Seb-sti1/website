@@ -10,10 +10,10 @@ interface HorizontalLineProps {
 
 const HorizontalLine: FC<HorizontalLineProps> = ({
   width = "50%",
-  height = "2px",
+  height = "3px",
   marginTop = "40px",
   marginBottom = "40px",
-  color = "lightgrey",
+  color = "var(--border-color)",
 }) => {
   return (
     <hr
@@ -25,6 +25,7 @@ const HorizontalLine: FC<HorizontalLineProps> = ({
         borderRadius: "2px",
         marginTop: marginTop,
         marginBottom: marginBottom,
+        border: "0",
       }}
     />
   );

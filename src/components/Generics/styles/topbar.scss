@@ -1,7 +1,6 @@
 @use "../../../variables.scss" as *;
 
-.topbar .toggle-btn {
-  font-family: $font-titles;
-  position: absolute;
-  left: 60px;
+.topbar {
+  display: flex;
+  flex-direction: row;
 }

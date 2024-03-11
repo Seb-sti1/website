@@ -2,6 +2,7 @@ import { FC, useMemo } from "react";
 import "./styles/toggle-btn.scss";
 
 interface ToggleBtnProps {
+  className?: string;
   defaultValue?: boolean;
   label?: string;
   option1?: string;
@@ -10,6 +11,7 @@ interface ToggleBtnProps {
 }
 
 const ToggleBtn: FC<ToggleBtnProps> = ({
+  className,
   defaultValue,
   label,
   option1,
@@ -22,7 +24,7 @@ const ToggleBtn: FC<ToggleBtnProps> = ({
   }, []);
 
   return (
-    <div className="toggle-btn">
+    <div className={"toggle-btn" + (className ? " " + className : "")}>
       {option1 && <span className="option1">{option1}</span>}
       <label className="switch">
         <input

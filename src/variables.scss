@@ -3,9 +3,15 @@ $body-width: (100% - (2 * $body-side-padding));
 $body-top-padding: 30px;
 $body-height: calc(100vh - $body-top-padding);
 
-$background-color: #222429;
-$text-color: #e6e6e6;
-$link-color: #61dafb;
+$dark-background-color: #222429;
+$dark-text-color: #e6e6e6;
+$dark-link-color: #61dafb;
+$dark-border-color: lightgrey;
+
+$light-background-color: #ffffff;
+$light-text-color: #333333;
+$light-link-color: #2c7e8f;
+$light-border-color: #b3b3b3;
 
 $font-titles: "Julius Sans One", sans-serif;
 $font-texts: "Mulish", sans-serif;

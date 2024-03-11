@@ -11,7 +11,7 @@ const Footer: FC = () => {
   return (
     <footer className="footer">
       <HorizontalLine
-        height={"0px"}
+        height={"2px"}
         width={"80%"}
         marginTop={"50px"}
         marginBottom={"20px"}
