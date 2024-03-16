@@ -16,6 +16,7 @@ const Education: FC = () => {
           title={t("education.dtu")}
           description={t("education.dtu.desc")}
           diploma={t("education.dtu.diploma")}
+          location="Lyngby, Danmark"
           dates="2023-2025"
           link={
             "https://www.dtu.dk/english/education/graduate/msc-programmes/autonomous-systems"
@@ -26,6 +27,7 @@ const Education: FC = () => {
           title={"ENSTA Paris (IP Paris)"}
           description={t("education.ensta.desc")}
           diploma={t("education.ensta.diploma")}
+          location="Palaiseau, France"
           dates="2021-2024"
           link={t("education.ensta.link")}
         >
@@ -34,11 +36,13 @@ const Education: FC = () => {
               key={"stage-pre"}
               title={t("internship.pre")}
               description={t("internship.pre.desc")}
+              location="Aldebaran Robotics"
               dates={t("internship.pre.dates")}
             />,
             <SimpleCard
               key={"stage-op"}
               title={t("internship.stage-op")}
+              location="Aldes Aéraulique"
               description={t("internship.stage-op.desc")}
               dates={t("internship.stage-op.dates")}
             />,

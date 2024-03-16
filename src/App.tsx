@@ -19,7 +19,7 @@ const error = (
   </>
 );
 
-const maintenance = true;
+const maintenance = false;
 const App: FC = () => {
   const forceSee = useMemo(() => {
     const search = window.location.search;

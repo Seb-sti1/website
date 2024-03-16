@@ -14,26 +14,6 @@ const Projects: FC = () => {
       <Topbar />
       <div className="content">
         <HTMLElementCard
-          title={
-            <Trans
-              t={t}
-              i18nKey="cdfr.title"
-              components={{ italic: <span className={"italic"} /> }}
-            />
-          }
-          description={
-            <Trans
-              t={t}
-              i18nKey="cdfr.desc"
-              components={{ ul: <ul />, li: <li /> }}
-            />
-          }
-          dates={t("cdfr.dates")}
-          link={t("cdfr.link")}
-          tags={["ROS", "Git", "Python", "Inventor/Fusion 360"]}
-        />
-        <HorizontalLine />
-        <HTMLElementCard
           title={t("cohoma.title")}
           description={
             <Trans
@@ -50,8 +30,9 @@ const Projects: FC = () => {
               }}
             />
           }
-          dates="2022-2023"
+          dates={t("cohoma.date")}
           link="https://www.defense.gouv.fr/terre/actualites/cohoma-cooperation-homme-machine"
+          location="ENSTA Paris"
           tags={[
             "ROS",
             "Git",
@@ -72,12 +53,29 @@ const Projects: FC = () => {
               components={{
                 ul: <ul />,
                 li: <li />,
+                etal: <a href="https://etal.data-ensta.fr/" />,
               }}
             />
           }
-          dates="2021-2023"
+          dates={t("etal.date")}
           link="https://etal.data-ensta.fr/"
-          tags={["Google Sheets", "JavaScript (Vue.js, Express)", "Git"]}
+          location="ENSTA Paris"
+          tags={["Google Sheets", "Typescript (Vue.js, Express)", "Git"]}
+        />
+        <HorizontalLine />
+        <HTMLElementCard
+          title={
+            <Trans
+              t={t}
+              i18nKey="cdfr.title"
+              components={{ italic: <span className={"italic"} /> }}
+            />
+          }
+          description={<Trans t={t} i18nKey="cdfr.desc" />}
+          location="ENSTA Paris"
+          dates={t("cdfr.dates")}
+          link={t("cdfr.link")}
+          tags={["ROS", "Git", "Python", "Inventor/Fusion 360"]}
         />
         <HorizontalLine />
         <HTMLElementCard
@@ -89,12 +87,26 @@ const Projects: FC = () => {
               components={{
                 ul: <ul />,
                 li: <li />,
+                lazonec: <a href="https://lazonec.fr" />,
               }}
             />
           }
           dates={t("lzc.dates")}
           link="https://lazonec.fr"
           tags={["PHP", "HTML/CSS", "JavaScript"]}
+        />
+        <HorizontalLine />
+        <HTMLElementCard
+          title={
+            <Trans
+              t={t}
+              i18nKey="cdfrj.title"
+              components={{ italic: <span className={"italic"} /> }}
+            />
+          }
+          description={<Trans t={t} i18nKey="cdfrj.desc" />}
+          dates={t("cdfrj.dates")}
+          link={t("cdfrj.link")}
         />
       </div>
       <Footer />
