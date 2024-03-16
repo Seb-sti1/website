@@ -1,7 +1,7 @@
 import { FC, ReactNode } from "react";
 import "./styles/card.scss";
-import { ReactComponent as LinkLogo } from "./logos/link.svg";
-import { ReactComponent as CalendarLogo } from "./logos/calendar.svg";
+import { FaExternalLinkAlt, FaRegCalendarAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 interface SimpleCardProps {
   title: string;
@@ -10,6 +10,7 @@ interface SimpleCardProps {
   dates?: string;
   image?: string;
   link?: string;
+  location?: string;
   tags?: string[];
   children?: ReactNode[];
 }
@@ -21,6 +22,7 @@ const SimpleCard: FC<SimpleCardProps> = ({
   diploma,
   image,
   link,
+  location,
   tags,
   children,
 }) => {
@@ -33,9 +35,6 @@ const SimpleCard: FC<SimpleCardProps> = ({
             <a href={link} target="_blank">
               <h3>{title}</h3>
             </a>
-            <a href={link} target="_blank">
-              <LinkLogo width={50} height={50} />
-            </a>
           </>
         ) : (
           <h3>{title}</h3>
@@ -43,12 +42,25 @@ const SimpleCard: FC<SimpleCardProps> = ({
       </div>
       <div className="card-sub-header">
         {diploma && <h4>{diploma}</h4>}
-        {dates && (
-          <>
-            <CalendarLogo width={33} height={33} />
-            <p>{dates}</p>
-          </>
-        )}
+        <div className="card-sub-header-right">
+          {link && (
+            <a href={link} target="_blank">
+              <FaExternalLinkAlt size={30} />
+            </a>
+          )}
+          {location && (
+            <div style={{ display: "flex" }}>
+              <FaLocationDot size={30} />
+              <p>{location}</p>
+            </div>
+          )}
+          {dates && (
+            <div style={{ display: "flex" }}>
+              <FaRegCalendarAlt size={30} />
+              <p>{dates}</p>
+            </div>
+          )}
+        </div>
       </div>
       <p>{description}</p>
 

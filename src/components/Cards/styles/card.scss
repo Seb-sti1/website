@@ -49,15 +49,25 @@
     flex-direction: row;
   }
 
-  .card-sub-header p {
-    margin: 0 0 0 10px;
+  .card-sub-header-right {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
   }
-  .card-sub-header svg {
-    margin: 0 0 0 auto;
+
+  .card-sub-header-right a {
+    color: var(--text-color);
+  }
+
+  .card-sub-header-right p {
+    height: fit-content;
+    margin: 0 0 0 5px;
   }
 
   p {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
@@ -70,7 +80,7 @@
       margin: 0;
       border: var(--text-color) solid 1px;
       border-radius: 15px;
-      padding: 5px 7px 3px 7px;
+      padding: 3px 7px 3px 7px;
     }
   }
 }
@@ -80,6 +90,10 @@ ul.card-children {
   border-left: 2px solid var(--border-color);
   margin: 0 0 0 2em;
   padding: 1px 0 0 1em;
+
+  p {
+    margin-bottom: 50px;
+  }
 
   li {
     position: relative;
