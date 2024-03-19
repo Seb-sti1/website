@@ -16,6 +16,24 @@ body {
   --border-color: #{$light-border-color};
   --brigthness: #{$light-brightness};
   transition: background 1.2s;
+
+  @media screen and (min-width: 1000px) {
+    --body-side-padding: 12%;
+    --regular-font-size: 1.4em;
+    --smaller-font-size: 0.5em;
+    --titles-font-size: 1.5em;
+    --titles-subcard-font-size: 1.2em;
+    --subtitles-font-size: 1em;
+  }
+
+  @media screen and (max-width: 1000px) {
+    --body-side-padding: 0%;
+    --regular-font-size: 1.2em;
+    --smaller-font-size: 0.5em;
+    --titles-font-size: 1.3em;
+    --titles-subcard-font-size: 1.2em;
+    --subtitles-font-size: 1em;
+  }
 }
 
 body {
@@ -24,13 +42,19 @@ body {
   background-color: var(--background-color);
   flex-direction: column;
   align-items: center;
-  font-size: $regular-font-size;
+  font-size: var(--regular-font-size);
   color: var(--text-color);
-  padding-top: $body-top-padding;
-  padding-left: $body-side-padding;
-  padding-right: $body-side-padding;
   min-height: $body-height;
-  font-family: $font-texts;
+  font-family: "Mulish", sans-serif;
+}
+
+.body {
+  padding-top: $body-top-padding;
+  padding-left: var(--body-side-padding);
+  padding-right: var(--body-side-padding);
+  min-height: $body-height;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -39,9 +63,6 @@ a {
 
 #root {
   width: 100%;
-  min-height: $body-height;
-  display: flex;
-  flex-direction: column;
 }
 
 .content {
