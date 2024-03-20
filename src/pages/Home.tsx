@@ -19,7 +19,17 @@ const Home: FC = () => {
               i18nKey="home.short-description"
               components={{
                 dtu: <a href="https://www.dtu.dk/english/">DTU</a>,
-                ensta: <a href="https://www.ensta-paris.fr/en">ENSTA Paris</a>,
+                ensta: (
+                  <a
+                    href={
+                      i18n.language === "fr"
+                        ? "https://www.ensta-paris.fr"
+                        : "https://www.ensta-paris.fr/en"
+                    }
+                  >
+                    ENSTA Paris
+                  </a>
+                ),
               }}
             />
           </p>
