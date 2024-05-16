@@ -16,6 +16,7 @@ const error = (
     <Route path="/503" element={<ServiceUnavailable />} />
     <Route path="/error/:reason" element={<UnknownError />} />
     <Route path="/404" element={<NotFound />} />
+    <Route path="*" element={<NotFound />} />
   </>
 );
 
@@ -34,6 +35,8 @@ const App: FC = () => {
         <Routes>
           {error}
           <Route path="/" element={<Maintenance />} />
+          <Route path="/projects" element={<Maintenance />} />
+          <Route path="/education" element={<Maintenance />} />
         </Routes>
       </BrowserRouter>
     );
@@ -46,7 +49,6 @@ const App: FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/education" element={<Education />} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
