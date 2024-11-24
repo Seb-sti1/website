@@ -1,0 +1,9 @@
+@use "../../../variables.scss" as *;
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 5%;
+}

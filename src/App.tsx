@@ -7,9 +7,7 @@ import UnknownError from "./components/Errors/UnknownError";
 import NotFound from "./components/Errors/NotFound";
 
 import Home from "./pages/Home";
-import Projects from "./pages/Project";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Education from "./pages/Education";
 
 const error = (
   <>
@@ -35,8 +33,6 @@ const App: FC = () => {
         <Routes>
           {error}
           <Route path="/" element={<Maintenance />} />
-          <Route path="/projects" element={<Maintenance />} />
-          <Route path="/education" element={<Maintenance />} />
         </Routes>
       </BrowserRouter>
     );
@@ -47,8 +43,6 @@ const App: FC = () => {
       <Routes>
         {error}
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/education" element={<Education />} />
       </Routes>
     </BrowserRouter>
   );

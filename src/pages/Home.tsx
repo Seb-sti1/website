@@ -1,9 +1,9 @@
 import { FC } from "react";
 
 import { Trans, useTranslation } from "react-i18next";
-import Topbar from "../components/Generics/Topbar";
 import Sidebar from "../components/Generics/Sidebar";
 import Footer from "../components/Generics/Footer";
+import BigContact from "../components/Generics/BigContact";
 
 const Home: FC = () => {
   const { t, i18n } = useTranslation();
@@ -11,7 +11,6 @@ const Home: FC = () => {
     <>
       <Sidebar />
       <div className="body">
-        <Topbar />
         <div className="centered content">
           <p>
             <Trans
@@ -32,6 +31,7 @@ const Home: FC = () => {
                 ),
               }}
             />
+            <BigContact />
           </p>
         </div>
         <Footer />

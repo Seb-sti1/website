@@ -1,5 +1,4 @@
 import { FC } from "react";
-import Contact from "./Contact";
 
 import "./styles/footer.scss";
 import HorizontalLine from "../Cards/HorizontalLine";
@@ -17,7 +16,7 @@ const Footer: FC = () => {
         marginBottom={"20px"}
         color={"grey"}
       />
-      <Contact />
+      {/*<Contact />*/}
       <p className="centered italic">
         <Trans
           t={t}
