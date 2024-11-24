@@ -15,5 +15,5 @@ This repo contains my (small) website. This website is kind of an interactive re
 # Sources
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- [https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/](Multipages)
+- [Multi pages](https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/)
 - https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
